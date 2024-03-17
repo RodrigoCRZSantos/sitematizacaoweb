@@ -1,0 +1,82 @@
+
+*{
+    border-radius: 5px;  
+    }
+b{ /*bold, ou negrito*/
+    font-size: 36px;
+ }
+br {/*acrescenta margem 20px para todas quebras de linhas*/
+    margin-bottom: 20px;
+ }
+body{ 
+     background-color: #bac6e0;
+     font-family: 'arial';
+ }
+header{
+      background-color:#6c85bd ;
+      text-align: center;
+      padding: 30px;
+      /* deixa uma imagem do simbolo da loja no fundo do header, sem repetir e no canto dieito*/
+      background-image: url(logo3.png);
+      background-position-x: center;
+      background-size: contain; 
+      background-repeat: no-repeat;
+ }
+h1{
+    color: ghostwhite;
+    font-size: 50px;
+    display: inline-block;    
+ }
+h2 {
+    text-align:center;
+    color: black;
+    font-size: 20px;
+ }
+h3 {
+    color: ghostwhite;
+    font-size: 30px;
+ }
+p {   
+    text-align:center;
+    font-size: 16px;    
+   }
+div {
+    background-color:white;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #92979c; 
+   }
+.divazul{
+    background-color:#6c85bd;
+    padding: 25px;
+    margin: 10px;
+    border: 7px solid white; 
+}
+.semborda{
+    text-align:center;
+    background-color: white;
+    color: black;    
+    display: flex;
+    border: 0px;
+   }
+#assinatura {
+    font-style: bold;
+    color: black;
+    float:right;
+    }
+.comborda{
+    flex: 1;
+    width: auto;
+
+}
+
+img {
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+form{
+    width: 35%;
+}
